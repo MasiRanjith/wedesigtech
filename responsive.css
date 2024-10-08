@@ -1,0 +1,190 @@
+@media (width <=576px) {
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+
+    
+    .aboutUs {
+        padding: 0 2rem;
+    }
+    .ourExcellenceContent h2 {
+        font-size: 5rem;
+    }
+
+    .ourExcellenceContainer {
+        padding: 0;
+        /* margin: 0; */
+        /* width: auto; */
+        width: 100%;
+    }
+    .webDesignImageHead1 img {
+        width: 100%;
+
+    }
+    .webDesignContentBody1 p{
+        padding: 5rem 0;
+    }
+    .ourHappyTittle {
+        /* margin-left: 7rem; */
+    }
+    .webDesignBody  {
+        padding: 3rem 0;
+    }
+    .ourHappyContent p{
+        font-size: 2.1rem;
+        width:100%;
+        text-align: center;
+        padding: 2rem 0;
+    }
+    .whychooseContent{
+        padding: 0 0;
+    }
+    .whychooseCard {
+        padding:0  0 ;
+        margin: 0 0;
+    }
+    
+    .ourHappyContent h2 {
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin:0 0 0 15rem;
+    }
+ 
+    .ourHappyImage {
+        align-items: center;
+        /* justify-content: flex-end; */
+    }
+    .ourHappyImage img {
+        width: 40%;
+        margin:0 0 0 14rem;
+        
+
+    
+    }
+    .whyChooseImage img {
+        width: 100%;
+    }
+    .latestNewsBody{
+        padding: 5rem 5rem;
+    }
+    .latestNewsContent p {
+        /* align-items: center; */
+        /* margin-left: 7rem; */
+        text-align: center;
+        width: 100%;
+    }
+    .contactcontent2 {  
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        /* text-align: start; */
+        /* margin-left: 19rem; */
+        padding: 2rem 0;
+        margin-right: 14rem;
+        
+       
+      
+    }
+    .contactContent3{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        text-align: start;
+        /* margin-left: 19rem; */
+        padding: 2rem 0;
+        margin-right: 12rem;
+    }
+    .contactContent4 h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-right: 4rem; */
+        margin-right: 13rem;
+    }
+    .contactContent4 input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 4rem;
+        font-size: 4.5rem;
+    }
+    .contactContent4 p {
+        padding: 0 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width >=576px) and (width <=768px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+
+    .ourExcellence {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+    .ourExcellenceContent p {
+        /* font-size: 7rem; */
+    }
+
+    .websiteTittle h2 {
+        font-size: 5rem;
+    }
+
+    .whyChooseImage img {
+        width: 100%;
+    }
+
+    .whyChooseImage {
+        width: 100%;
+    }
+  
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+@media (width >=769px) and (width <=992px) {}
+
+/* X-Large devices (Large desktops, upto 1200px and above) */
+@media (width >=993px) and (width <=1200px) {}
+
+/* XX-Large devices (larger desktops, upto 1400 and above) */
+@media (Width >=1200) {}
